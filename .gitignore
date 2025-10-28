@@ -1,0 +1,128 @@
+# Composer
+/composer.phar
+/core/composer.phar
+vendor/
+!/vendor/index.html
+!/vendor/.htaccess
+
+# windows thumbnail cache
+Thumbs.db
+
+# Mac DS_Store Files
+.DS_Store
+
+# phpstorm project files
+.idea
+
+# netbeans project files
+nbproject
+
+# zend studio for eclipse project files
+.buildpath
+.project
+.settings
+
+# vs code files
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# IDE Helper
+modx_evolution.IDEhelper.php
+_ide_helper.php
+.phpstorm.meta.php
+
+# node.JS
+node_modules
+npm-debug.log
+
+# System
+ftpsync.settings
+Desktop.ini
+.rocketeer
+
+# except do not ignore .gitignore
+!.gitignore
+
+# phpunit itself is not needed
+phpunit.phar
+# local phpunit config
+/phpunit.xml
+
+# vagrant runtime
+/.vagrant
+
+# docker
+Dockerfile
+
+# Log files
+/log
+/logs
+.log
+*.log
+
+# Backups files
+*.bak
+*.back
+*.backup
+
+# adminer
+adminer.php
+adminer-db.php
+db-adminer.php
+_adminer.php
+_adminer-db.php
+_db-adminer.php
+adminer.css
+/adminer/
+
+# system project
+/.htaccess
+/ht.access
+/robots.txt
+/favicon.png
+/favicon.ico
+/favicon.svg
+/phpmyadmin
+/README.md
+/*.*
+!.gitignore
+/assets/
+/manager/
+/templates/
+/temp/
+/tests/
+/views/
+/vue/
+/core/*.*
+/core/artisan
+/core/composer/
+/core/config/
+/core/database/
+/core/factory/
+/core/functions/
+/core/includes/
+/core/lang/
+/core/modifiers/
+/core/src/
+/core/storage/
+/core/custom/config/
+/core/custom/*.*
+
+# Оther
+/docker/php7.4/Dockerfile
+/phpmyadmin/
+/deploy
+/refresh
+/update
+/core/custom/packages/main/sugar/yandex_55f6100684b12beb.html
+/core/custom/packages/main/public/scripts/constructor-vue/favicon.ico
+/core/custom/packages/main/public/scripts/constructor-vue/index.html
+/core/custom/packages/main/public/scripts/constructor-vue/img/
+/core/custom/packages/main/public/scripts/constructor-vue/css/
+
+# drone
+!.drone.yml
